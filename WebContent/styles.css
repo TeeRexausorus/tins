@@ -1,0 +1,95 @@
+html,body,div,span,applet,object,iframe,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,u,i,center,dl,dt,dd,li,form,label,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video
+	{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section
+	{
+	display: block;
+}
+
+html {
+	max-width: 800px;
+	min-width: 500px;
+	margin: 0 auto;
+	max-width: 800px;
+}
+
+fieldset {
+	border-color: #eeeeee;
+}
+
+body {
+	background-color: #efefef;
+	line-height: 1;
+}
+
+.scrollable {
+	max-height: 500px;
+	overflow: auto;
+}
+
+.global {
+	/*border: 1px solid #111111;*/
+	margin: 0 auto;
+	position: relative;
+	/*width: 800px;*/
+}
+
+.top {
+	background-position: center;
+	height: 100px;
+	margin-left: auto;
+	text-align: left;
+	margin-right: -5px;
+	border-bottom: 2px outset black;
+}
+
+.miniTop{
+	background-position: center;
+	height: 25px;
+	margin-left: auto;
+	text-align: left;
+	margin-right: -5px;
+}
+
+.left {
+	position: absolute;
+	margin-left: 0%;
+	margin-top: 0px;
+	width: 30%;
+}
+
+.center {
+	position: absolute;
+	margin-left: 30%;
+	margin-top: 0px;
+	width: 70%;
+}
+
+.right {
+	text-align: right;
+	position: absolute;
+	margin-left: 80%;
+	margin-top: 0px;
+	width: 20%;
+}
+
+.greenBig {
+	color: green;
+	font-size: large;
+}
+
+.redBig {
+	color: red;
+	font-size: large;
+}
+
+.contributeur {
+	color: grey;
+}
